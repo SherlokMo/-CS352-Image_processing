@@ -90,8 +90,13 @@ def load_grayscale(filename):
 # don't care about how, just implement it here and test it here and it will give the correct result in gui
 def apply_manual_thres(image, thres):
     im_out = image.copy()
-    # write ur code here
-
+    height, width = im_out.shape
+    for i in range(0, height):
+        for j in range(0, width):
+            if(im_out[i, j] >= thres):
+                 im_out[i, j] = 255
+            else:
+                im_out[i, j] = 0
     return im_out
 
 # implement otsu's method here it takes the image
