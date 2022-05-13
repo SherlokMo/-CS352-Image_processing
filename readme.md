@@ -2,6 +2,10 @@
 
 Please make sure to write your code on your own. Be aware of plagirism. It counts as you did not submit any work at all.
 
+# Team Info
+- Id: `01`
+- Model: `C`
+
 ## Guidelines
 1. Each team has its model to implement correctly.
 2. Do not edit any file except "exam.py".
