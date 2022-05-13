@@ -135,9 +135,18 @@ def contrast_stretch(im):
 # you can get the kernel with specific size from KERNEL dictionary by typing KERNEL[filter][size]
 def apply_linear_filter(image, filter, size):
     im_out = image.copy()
-
-    # write ur code here
-    return image
+    height, widht = im_out.shape
+    # Getting offset (middle or array):
+    offset = len(im_out) // 2
+    for col in range(offset, widht - offset):
+        for row in range(offset, height - offset):
+            for i in range(len(height)):
+                for j in range(len(height)):
+                    X = col + i - offset
+                    Y = row + j - offset
+                    im_out[X, Y] *= KERNEL[filter][size][i][j]
+                
+    return im_out
 
 ######################
 # Non-Linear Filters #
