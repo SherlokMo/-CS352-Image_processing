@@ -15,16 +15,16 @@ Please make sure to write your code on your own. Be aware of plagirism. It count
 6. Again, for the people who do not read carefully. Do NOT corrupt other files except "exam.py". 
 
 ## Models Tasks
-| Topic | Model A | Model B | Model C | State |
-| :---: | :---: | :---: | :---: | :---: |
-|  | Histogram | Histogram | Histogram | X |
-|  | Segmentation | Segmentation | Segmentation |  Done | 
-|  | Histogram equalization | Histogram Equalization | Contrast Streching | X |
-| Linear Filters | Box Filter | Average Filter | Box Filter | X |
-| Non-linear Filters | Min Filter | Max Filter | Mean Filter | X |
-| Edge Detection | Sobel Filter | Prewitt Filter | Sobel Filter | X |
-| Special | Canny | Canny | Canny | X |
-| Sharpening Filters | Laplacian Filter | High Boost Filter | Laplacian Filter | X |
-|  | Time Transmission | Time Transmission | Time Transmission | X |
+| Topic | Model C | State |
+| :---: | :---: | :---: |
+|  |  Histogram | X |
+|  | Segmentation |  Done | 
+|  | Contrast Streching | X |
+| Linear Filters | Box Filter | X |
+| Non-linear Filters | Mean Filter | X |
+| Edge Detection | Sobel Filter | X |
+| Special | Canny | X |
+| Sharpening Filters | Laplacian Filter | X |
+|  | Time Transmission | X |
 
 ### 2022 © KFS University
