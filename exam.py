@@ -98,11 +98,10 @@ def otsu(image):
     # this varible will change when used outs's method
     final_thresh = -1
     
-            
     # take a copy of an image to implement final_threshold to it aand return output
     im_out = image.copy()
-    
-    return im_out, final_thresh
+    final_thresh, _ = cv2.threshold(im_out, 0, 255,cv2.THRESH_BINARY_INV | cv2.THRESH_OTSU )
+    return applyThereshold(im_out, final_thresh), final_thresh
 
 
 def applyThereshold(image, thres): 
