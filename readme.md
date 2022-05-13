@@ -17,14 +17,14 @@ Please make sure to write your code on your own. Be aware of plagirism. It count
 ## Models Tasks
 | Topic | Model A | Model B | Model C | State |
 | :---: | :---: | :---: | :---: | :---: |
-|  | Histogram | Histogram | Histogram | [ ] |
-|  | Segmentation | Segmentation | Segmentation | [ X ] | 
-|  | Histogram equalization | Histogram Equalization | Contrast Streching | [ ] |
-| Linear Filters | Box Filter | Average Filter | Box Filter | [ ] |
-| Non-linear Filters | Min Filter | Max Filter | Mean Filter | [ ] |
-| Edge Detection | Sobel Filter | Prewitt Filter | Sobel Filter | [ ] |
-| Special | Canny | Canny | Canny | [ ] |
-| Sharpening Filters | Laplacian Filter | High Boost Filter | Laplacian Filter | [ ] |
-|  | Time Transmission | Time Transmission | Time Transmission | [ ] |
+|  | Histogram | Histogram | Histogram | X |
+|  | Segmentation | Segmentation | Segmentation |  Done | 
+|  | Histogram equalization | Histogram Equalization | Contrast Streching | X |
+| Linear Filters | Box Filter | Average Filter | Box Filter | X |
+| Non-linear Filters | Min Filter | Max Filter | Mean Filter | X |
+| Edge Detection | Sobel Filter | Prewitt Filter | Sobel Filter | X |
+| Special | Canny | Canny | Canny | X |
+| Sharpening Filters | Laplacian Filter | High Boost Filter | Laplacian Filter | X |
+|  | Time Transmission | Time Transmission | Time Transmission | X |
 
 ### 2022 © KFS University
