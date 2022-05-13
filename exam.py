@@ -53,15 +53,15 @@ KERNEL = {
             ]).astype('float'),
     },
     'sobel': {
-        'ver': np.array([
-                [0, 0, 0],
-                [0, 0, 0],
-                [0, 0, 0]
-            ]).astype('float'),
         'hor': np.array([
+                [-1, 0, 1],
+                [-2, 0, 2],
+                [-1, 0, 1]
+            ]).astype('float'),
+        'ver': np.array([
+                [-1, -2, -1],
                 [0, 0, 0],
-                [0, 0, 0],
-                [0, 0, 0]
+                [1, 2, 1]
             ]).astype('float'),
     },
     'sharpen': np.array([
