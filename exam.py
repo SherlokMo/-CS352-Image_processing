@@ -89,15 +89,7 @@ def load_grayscale(filename):
 # this function takes im (image) and thres (desired threshold) that u have entered in gui 
 # don't care about how, just implement it here and test it here and it will give the correct result in gui
 def apply_manual_thres(image, thres):
-    im_out = image.copy()
-    height, width = im_out.shape
-    for i in range(0, height):
-        for j in range(0, width):
-            if(im_out[i, j] >= thres):
-                 im_out[i, j] = 255
-            else:
-                im_out[i, j] = 0
-    return im_out
+    return applyThereshold(image.copy(), thres)
 
 # implement otsu's method here it takes the image
 # returns the modified image and the optimal threshold 
@@ -112,6 +104,16 @@ def otsu(image):
     
     return im_out, final_thresh
 
+
+def applyThereshold(image, thres): 
+    height, width = image.shape
+    for i in range(0, height):
+        for j in range(0, width):
+            if(image[i, j] >= thres):
+                 image[i, j] = 255
+            else:
+                image[i, j] = 0
+    return image
 ########################
 #  Contrast Stretching #
 ########################
