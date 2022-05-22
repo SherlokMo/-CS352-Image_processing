@@ -245,8 +245,9 @@ def apply_sharpening_filter(image, a):
         [0, 0, 0]]).astype('float')
     
     im_output = image.copy()
-    
+    im_output = cv2.Laplacian (src=im_output, ddepth=cv2.CV_16S, ksize=3)
     return im_output
+
 
 ######################
 #  Time Transmission #
