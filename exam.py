@@ -208,8 +208,20 @@ def combine_both_edge_images(im_v, im_h):
 ########################
 # its your turn to implement canny without any help. 
 def canny(image):
-    # write ur code here
-    return image
+    # Setting parameter values 
+
+    t_lower = 50 # Lower Threshold 
+
+    t_upper = 150 # Upper threshold 
+
+ 
+
+    # Applying the Canny Edge filter 
+
+    edge = cv2.Canny(image, t_lower, t_upper) 
+
+ 
+    return edge
 
 ##################
 #   SHARPENING   #
