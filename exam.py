@@ -118,7 +118,23 @@ def applyThereshold(image, thres):
 ########################
 # apply histogram equalization and then return the modified image
 def hist_eq(im):
-    return im
+    #flatten image array and calculate histogram via binning
+    histogram_array = np.bincount(im.flatten(), minlength=256)
+    #normalize
+    num_pixels = np.sum(histogram_array)
+    histogram_array = histogram_array/num_pixels
+    #cumulative histogram
+    chistogram_array = np.cumsum(histogram_array)
+    # Pixel mapping lookup table
+    transform_map = np.floor(255 * chistogram_array).astype(np.uint8)
+    # flatten image array into 1D list
+    img_list = list(im.flatten())
+    # transform pixel values to equalize
+    eq_img_list = [transform_map[p] for p in img_list]
+    # reshape and write back into img_array
+    eq_img_array = np.reshape(np.asarray(eq_img_list), im.shape)
+
+    return eq_img_array
 
 # apply contrast stretching it takes the image
 # and it returns the modified image

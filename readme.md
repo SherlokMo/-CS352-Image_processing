@@ -17,7 +17,7 @@ Please make sure to write your code on your own. Be aware of plagirism. It count
 ## Models Tasks
 | Topic | Model C | State |
 | :---: | :---: | :---: |
-|  |  Histogram | X |
+|  |  Histogram | Done |
 |  | Segmentation |  Done | 
 |  | Contrast Streching | X |
 | Linear Filters | Box Filter | X |
