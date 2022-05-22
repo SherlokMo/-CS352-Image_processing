@@ -19,7 +19,7 @@ Please make sure to write your code on your own. Be aware of plagirism. It count
 | :---: | :---: | :---: |
 |  |  Histogram | Done |
 |  | Segmentation |  Done | 
-|  | Contrast Streching | X |
+|  | Contrast Streching | Done |
 | Linear Filters | Box Filter | X |
 | Non-linear Filters | Mean Filter | X |
 | Edge Detection | Sobel Filter | X |

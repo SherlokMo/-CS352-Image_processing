@@ -139,6 +139,12 @@ def hist_eq(im):
 # apply contrast stretching it takes the image
 # and it returns the modified image
 def contrast_stretch(im):
+    xp = [0, 64, 128, 192, 255]
+    fp = [0, 16, 128, 240, 255]
+    x = np.arange(256)
+    table = np.interp(x, xp, fp).astype('uint8')
+    im = cv2.LUT(im, table)
+
     return im
 
 
