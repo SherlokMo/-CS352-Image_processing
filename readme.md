@@ -25,6 +25,6 @@ Please make sure to write your code on your own. Be aware of plagirism. It count
 | Edge Detection | Sobel Filter | X |
 | Special | Canny | Done |
 | Sharpening Filters | Laplacian Filter | Done |
-|  | Time Transmission | X |
+|  | Time Transmission | Done |
 
 ### 2022 © KFS University

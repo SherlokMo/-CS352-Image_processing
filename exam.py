@@ -254,8 +254,9 @@ def apply_sharpening_filter(image, a):
 ######################
 # returns time transmission in seconds just type the equation and return the time
 def time_transmission(img, baudrate, channels):
-    time = 0
-    # write ur code here
+   
+    height, width = len(img), len(img[0])
+    time = ( height * width * 10) / (baudrate * 10**3)
     
     return time
 
