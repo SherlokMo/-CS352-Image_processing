@@ -23,7 +23,7 @@ Please make sure to write your code on your own. Be aware of plagirism. It count
 | Linear Filters | Box Filter | X |
 | Non-linear Filters | Mean Filter | X |
 | Edge Detection | Sobel Filter | X |
-| Special | Canny | X |
+| Special | Canny | Done |
 | Sharpening Filters | Laplacian Filter | X |
 |  | Time Transmission | X |
 
