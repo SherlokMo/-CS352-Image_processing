@@ -24,7 +24,7 @@ Please make sure to write your code on your own. Be aware of plagirism. It count
 | Non-linear Filters | Mean Filter | X |
 | Edge Detection | Sobel Filter | X |
 | Special | Canny | Done |
-| Sharpening Filters | Laplacian Filter | X |
+| Sharpening Filters | Laplacian Filter | Done |
 |  | Time Transmission | X |
 
 ### 2022 © KFS University
